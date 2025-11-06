@@ -17,7 +17,7 @@ python3 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 
 # 2) Install dependencies
-pip install -r requirements.txt  # or: pip install pygame
+pip install pygame>=2.0.0
 
 # 3) Start the game
 python 2048.py
